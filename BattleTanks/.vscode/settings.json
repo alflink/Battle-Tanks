@@ -1,0 +1,10 @@
+{
+	"files.exclude": {
+		"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/.kdev4": true,
+		"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/.vscode": true,
+		"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/Content": true,
+		"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/DerivedDataCache": true,
+		"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/Intermediate": true,
+		"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/Saved": true
+	}
+}

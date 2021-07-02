@@ -1,0 +1,1985 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "BattleTanks Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Shipping",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Shipping",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Shipping",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Test",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Test",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Test",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Shipping",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Shipping",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Shipping",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Test",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Test",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Test",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Shipping",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Shipping",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Shipping",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Test",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Test",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Test",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks LinuxAArch64 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"LinuxAArch64",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks LinuxAArch64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"LinuxAArch64",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks LinuxAArch64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks LinuxAArch64 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"LinuxAArch64",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks LinuxAArch64 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks LinuxAArch64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks LinuxAArch64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks LinuxAArch64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks LinuxAArch64 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"LinuxAArch64",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks LinuxAArch64 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"LinuxAArch64",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks LinuxAArch64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks LinuxAArch64 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"LinuxAArch64",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks LinuxAArch64 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks LinuxAArch64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks LinuxAArch64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks LinuxAArch64 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks LinuxAArch64 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"LinuxAArch64",
+				"Test",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks LinuxAArch64 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"LinuxAArch64",
+				"Test",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks LinuxAArch64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks LinuxAArch64 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"LinuxAArch64",
+				"Test",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Shipping",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Shipping",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Shipping",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Test",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Test",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Test",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks XXX Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"XXX",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks XXX Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"XXX",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks XXX Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks XXX Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"XXX",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks XXX DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"XXX",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks XXX DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"XXX",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks XXX DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks XXX DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"XXX",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks XXX Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"XXX",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks XXX Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"XXX",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks XXX Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks XXX Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"XXX",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks XXX Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"XXX",
+				"Shipping",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks XXX Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"XXX",
+				"Shipping",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks XXX Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks XXX Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"XXX",
+				"Shipping",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks XXX Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"XXX",
+				"Test",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks XXX Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"XXX",
+				"Test",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks XXX Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanks XXX Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"XXX",
+				"Test",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Linux",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Linux",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanksEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Linux",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Linux",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Linux",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanksEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Linux",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Linux",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Linux",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanksEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Linux",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Mac",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Mac",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanksEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Mac",
+				"Debug",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Mac",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Mac",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanksEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Mac",
+				"DebugGame",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Mac",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Mac",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanksEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Mac",
+				"Development",
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+			}
+		}
+	]
+}

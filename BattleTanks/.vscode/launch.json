@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "BattleTanks (Debug)",
+			"request": "launch",
+			"preLaunchTask": "BattleTanks Linux Debug Build",
+			"program": "/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/Binaries/Linux/BattleTanks-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24",
+			"type": "lldb"
+		},
+		{
+			"name": "BattleTanks (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "BattleTanks Linux DebugGame Build",
+			"program": "/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/Binaries/Linux/BattleTanks-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24",
+			"type": "lldb"
+		},
+		{
+			"name": "BattleTanks (Development)",
+			"request": "launch",
+			"preLaunchTask": "BattleTanks Linux Development Build",
+			"program": "/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/Binaries/Linux/BattleTanks",
+			"args": [
+			],
+			"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24",
+			"type": "lldb"
+		},
+		{
+			"name": "BattleTanks (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "BattleTanks Linux Shipping Build",
+			"program": "/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/Binaries/Linux/BattleTanks-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24",
+			"type": "lldb"
+		},
+		{
+			"name": "BattleTanks (Test)",
+			"request": "launch",
+			"preLaunchTask": "BattleTanks Linux Test Build",
+			"program": "/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/Binaries/Linux/BattleTanks-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24",
+			"type": "lldb"
+		},
+		{
+			"name": "BattleTanksEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "BattleTanksEditor Linux Debug Build",
+			"program": "/home/jaken/ProgramFiles/UnrealEngine-4.24/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject"
+			],
+			"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24",
+			"type": "lldb"
+		},
+		{
+			"name": "BattleTanksEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "BattleTanksEditor Linux DebugGame Build",
+			"program": "/home/jaken/ProgramFiles/UnrealEngine-4.24/Engine/Binaries/Linux/UE4Editor-Linux-DebugGame",
+			"args": [
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject"
+			],
+			"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24",
+			"type": "lldb"
+		},
+		{
+			"name": "BattleTanksEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "BattleTanksEditor Linux Development Build",
+			"program": "/home/jaken/ProgramFiles/UnrealEngine-4.24/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject"
+			],
+			"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/home/jaken/ProgramFiles/UnrealEngine-4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/home/jaken/Documents/Unreal Projects/Battle-Tanks/BattleTanks/BattleTanks.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/home/jaken/ProgramFiles/UnrealEngine-4.24"
+		}
+	]
+}
